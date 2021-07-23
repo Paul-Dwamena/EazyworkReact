@@ -1,0 +1,93 @@
+.hr__site-header .site-branding a, .hr__site-header .site-branding img {
+    display: block;
+    
+            }
+.page-template-page-minimal-header-and-footer {
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+
+}
+.hr__site-header .site-branding a {
+    max-width: 12.923em;
+    padding-bottom: 5px;
+}
+
+.fl-button{
+    background-color: #1ba94c;
+    color: white;
+    box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
+    font-size: 18.005px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 2.778em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    
+    
+
+
+}
+.main-h
+{   position: relative;
+    text-align: left;
+    left: 0;
+    
+}
+.fl-button:hover
+{   text-decoration: none;
+color: white;}
+
+.fl-button1{
+    background-color: #ffffff;
+    border: 1px solid #1ba94c;
+    color: #1ba94c;
+    font-size: 18.005px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 2.778em;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-weight: 500;
+    
+    
+
+
+}
+.fl-button1:hover
+{   text-decoration: none;
+    color:#1ba94c; 
+}
+
+
+@media screen  and (max-width:968px){
+    .background{
+        display: none;
+    }
+    .fl-button{
+        position: relative;
+        top:-20px;
+    }
+    .job-seekers{
+        margin-top: 30px;
+    }
+    .hirers{
+        position: relative;
+        top:-30px;
+    }
+    .myheadings{
+        font-weight: 700;
+    }
+
+    .main-h
+{   position: relative;
+    text-align: left;
+    left:0
+  
+
+}
+}
+

@@ -1,0 +1,45 @@
+card {
+    margin: 50px 0 0;
+  }
+  
+  .form-control {
+    padding: .375rem 0;
+    border: none;
+  }
+  
+  .preview img {
+    max-width: 100px;
+  }
+  
+  .multi-preview img {
+    max-width: 100px;
+    padding: 5px;
+  
+  }
+
+  .con { position: relative; }
+  .con img { display: block; }
+  .con .fa-trash { position: absolute; bottom:5px; left:5px; }
+
+
+
+  .verify-btn{
+
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    text-align: center;
+    /* background: #f75959;
+  
+    text-align: center;
+    background: -moz-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #f75959), color-stop(100%, #f35587));
+    background: -webkit-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -o-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -ms-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -webkit-linear-gradient(315deg, #f75959 0%, #f35587 100%);
+    background: -o-linear-gradient(315deg, #f75959 0%, #f35587 100%);
+    background: linear-gradient(135deg, #f75959 0%, #f35587 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75959', endColorstr='#f35587', GradientType=1 );
+    color: #fff;
+
+  }
