@@ -5,10 +5,11 @@ import './styles.css'
 import { notifyError,notifySuccess } from './Notification';
 import { Spinner } from './Spinner';
 
-const ImageUpload=()=> {
+const ImageUpload=(props)=> {
     let [images, setImages] = React.useState([]);
     const maxNumber = 2;
     const [loading,setLoading]=useState(false)
+    console.log(props)
     
     const onChange = (imageList, addUpdateIndex) => {
       // data for submit
@@ -54,7 +55,6 @@ const ImageUpload=()=> {
       
         <div>
         <ImageUploading
-          multiple
           value={images}
           onChange={onChange}
           maxNumber={maxNumber}
@@ -82,10 +82,10 @@ const ImageUpload=()=> {
               {imageList.map((image, index) => (
                  
                    
-                    <div key={index} className="col-md-6 col-sm-6">
+                    <div key={index} className="col-md-6 col-sm-6" >
                     <div class="con">
-                    <img src={image['data_url']} width="150px" />
-                    <i class="fas fa-trash" onClick={() => onImageRemove(index)}></i>
+                    <img src={image['data_url']} width="100%" style={{margin:"0 auto"}} />
+                   
    
                     </div>
                 
